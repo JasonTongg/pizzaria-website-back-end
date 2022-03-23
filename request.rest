@@ -60,3 +60,15 @@ Content-Type: application/json
 
 ###
 GET http://localhost:5000/order
+
+###
+POST http://localhost:5000/voucher
+Content-Type: application/json
+
+{
+    "code": "Pizza-3",
+    "persentage": 20
+}
+
+###
+GET http://localhost:5000/voucher
