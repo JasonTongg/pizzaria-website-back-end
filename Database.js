@@ -1,6 +1,6 @@
 import {Sequelize} from 'sequelize';
 
-const db = new Sequelize('Pizza_Web',
+const db = new Sequelize('Pizza_Web1',
 'root', '', {
     host: "localhost",
     dialect: "mysql"
